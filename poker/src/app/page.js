@@ -32,7 +32,12 @@ export default function Home() {
             </div>
 
             <div className="card-back">  {/* BACK */}
-
+            <Image 
+              src="/images/card-back-Blue.png" 
+              alt="Back of Card" 
+              className="card-img"
+              width={120}
+              height={120} />
             </div>
           </div>
         </div>
